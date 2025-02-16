@@ -21,3 +21,8 @@ git remote set-url origin https://
 git remote -v
 git push origin master
 git clone https://github
+
+
+
+
+#new commands to be added
