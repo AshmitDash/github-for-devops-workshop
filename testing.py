@@ -1,8 +1,13 @@
+"""
+This module takes two numbers from the user and prints their sum.
+"""
+
 print("Hello world")
 
-a=input("First Number: ")
-b=input("\nSecond Number:")
+a = input("First Number: ")
+b = input("\nSecond Number:")
 
-c= float(a) + float(b)
+c = float(a) + float(b)
 
-print("the sum of {0} and {1} is {2}".format(a,b,c))
+# Replaced .format() with f-string for cleaner code
+print(f"the sum of {a} and {b} is {c}")
