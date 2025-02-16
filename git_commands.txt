@@ -9,3 +9,15 @@ ls -a
 git status
 git restore testing.py 
 git status
+git add git_commands.txt 
+git status
+git commit -m "added the git commands"
+git status
+git remote add origin https://github
+git remote -v
+git push  origin master
+clear
+git remote set-url origin https://
+git remote -v
+git push origin master
+git clone https://github
